@@ -31,13 +31,15 @@ The aim is to provide simple, ready-to-use examples that help beginners understa
   
 ## How to Run
 1. Clone this repository:
-```bash
- ''git clone https://github.com/Lakshmi711/IoT-Arduino-Projects.git''
-cd IoT-Arduino-Projects
+   ```bash
+   >> git clone https://github.com/Lakshmi711/IoT-Arduino-Projects.git
+-> cd IoT-Arduino-Projects
+-> Open Arduino IDE
+-> Upload the code to your ESP8266/ESP32 board
 
 ## Technologies Used
 - Arduino IDE
-- ESP8266 & ESP32 Boards
+- Arduino, ESP8266 & ESP32 Boards
 - LoRa Modules
 - DHT11, IR, NPK, Soil Moisture, Ultrasonic, LDR Sensors
 - OLED Displays & GPS Modules
