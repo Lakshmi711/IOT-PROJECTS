@@ -1,19 +1,18 @@
-int ir=2;
-int irv;
+int fire=2;
+int firev;
 int led=3;
 
 void setup(){
-  pinMode(pir,INPUT);
+  pinMode(fire,INPUT);
   pinMode(led,OUTPUT);
   Serial.begin(9600);
 }
 
 void loop(){
-  pirv=digitalRead(pir);
-  Serial.print("pir value : ");
+  pirv=digitalRead(firev);
   Serial.println(pirv);
 
-  if (pirv==1){
+  if (firev==1){
     digitalWrite(led,HIGH);
     delay(1000);
   }
