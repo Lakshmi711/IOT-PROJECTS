@@ -24,13 +24,13 @@ void loop() {
     float phosphorus = readModbus(phos);
     float potassium = readModbus(pota);
 
-    Serial.println("🌱 Soil Nutrients:");
-    Serial.print("🟢 Nitrogen: "); Serial.print(nitrogen); Serial.println("%");
-    Serial.print("🟠 Phosphorous: "); Serial.print(phosphorus); Serial.println("%");
-    Serial.print("🔵 Potassium: "); Serial.print(potassium); Serial.println("%");
+    Serial.println("Soil Nutrients:");
+    Serial.print("Nitrogen: "); Serial.print(nitrogen); Serial.println("%");
+    Serial.print("Phosphorous: "); Serial.print(phosphorus); Serial.println("%");
+    Serial.print("Potassium: "); Serial.print(potassium); Serial.println("%");
     Serial.println("--------------------------");
 
-    delay(5000);  // Wait before next reading
+    delay(5000); 
 }
 
 int readModbus(const byte request[]) {
