@@ -28,18 +28,12 @@ The aim is to provide simple, ready-to-use examples that help beginners understa
 - **LED_Blink.ino** – Blinks an LED at regular intervals.
 - **OLED_Display.ino** – Displays data on an OLED screen.
 - **GPS_Module.ino** – Retrieves GPS coordinates from a GPS module.
-
-## How to Run
-1. Clone this repository:
-
-play.ino** – Displays data on an OLED screen.
-- **GPS_Module.ino** – Retrieves GPS coordinates from a GPS module.
-
+  
 ## How to Run
 1. Clone this repository:
 ```bash
-   git clone https://github.com/Lakshmi711/IoT-Arduino-Projects.git
-
+ ''git clone https://github.com/Lakshmi711/IoT-Arduino-Projects.git''
+cd IoT-Arduino-Projects
 
 ## Technologies Used
 - Arduino IDE
@@ -56,7 +50,3 @@ play.ino** – Displays data on an OLED screen.
 - LinkedIn: [Lakshmi711](https://www.linkedin.com/in/Lakshmi711)
 
 
-
-
-   ```bash
-   git clone https://github.com/Lakshmi711/IoT-Arduino-Projects.git
